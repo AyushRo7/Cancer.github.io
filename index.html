@@ -79,6 +79,8 @@
         }
         .toc_div{
             overflow:hidden;
+            display:flex;
+            flex-direction: row;
         }
         .tumor_img{
             overflow:hidden;
@@ -93,6 +95,14 @@
             width: 40vw;
             height: 20em;
             margin:8px;
+        }
+        @media screen and (max-widht:600px){
+            .toc_div{
+            overflow:hidden;
+            display:flex;
+            flex-direction:column;
+            }
+            
         }
     </style>
 </head>
